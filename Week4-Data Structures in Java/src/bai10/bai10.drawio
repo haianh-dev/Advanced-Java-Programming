@@ -1,0 +1,72 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="GPTXzkG2Y2o3sGrm4Pet">
+    <mxGraphModel dx="1086" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yCXv-yiDPDy9d2zfSw9m-6" edge="1" parent="1" source="yCXv-yiDPDy9d2zfSw9m-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;dashed=1;" target="yCXv-yiDPDy9d2zfSw9m-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yCXv-yiDPDy9d2zfSw9m-11" connectable="0" parent="yCXv-yiDPDy9d2zfSw9m-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="sử dụng" vertex="1">
+          <mxGeometry relative="1" x="-0.2545" y="21" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yCXv-yiDPDy9d2zfSw9m-7" edge="1" parent="1" source="yCXv-yiDPDy9d2zfSw9m-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;curved=1;" target="yCXv-yiDPDy9d2zfSw9m-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yCXv-yiDPDy9d2zfSw9m-12" connectable="0" parent="yCXv-yiDPDy9d2zfSw9m-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="khởi tạo" vertex="1">
+          <mxGeometry relative="1" x="-0.0384" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yCXv-yiDPDy9d2zfSw9m-8" edge="1" parent="1" source="yCXv-yiDPDy9d2zfSw9m-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;dashed=1;" target="yCXv-yiDPDy9d2zfSw9m-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yCXv-yiDPDy9d2zfSw9m-13" connectable="0" parent="yCXv-yiDPDy9d2zfSw9m-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="khởi tạo" vertex="1">
+          <mxGeometry relative="1" x="0.1168" y="-30" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yCXv-yiDPDy9d2zfSw9m-1" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Main&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ main(args: String[]): void&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="160" x="300" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yCXv-yiDPDy9d2zfSw9m-2" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MediaItem&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# id: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# name: String&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ MediaItem(id: String, name: String)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;i&gt;printDetails(): void&lt;/i&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="110" width="210" x="50" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="yCXv-yiDPDy9d2zfSw9m-3" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Book&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# author: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# pages: int&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Book(id: String, name: String, author: String, pages: int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ printDetails(): void&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="190" x="360" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="yCXv-yiDPDy9d2zfSw9m-4" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;LibrarySection&amp;lt;T&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- items: List&amp;lt;T&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ LibrarySection()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ addDocument(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ removeDocument(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ displayDocuments(): void&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="210" x="80" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="yCXv-yiDPDy9d2zfSw9m-5" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;DVD&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# director: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# duration: int&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DVD(id: String, name: String, director: String, duration: int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ printDetails(): void&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="190" x="580" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="yCXv-yiDPDy9d2zfSw9m-9" edge="1" parent="1" source="yCXv-yiDPDy9d2zfSw9m-5" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" target="yCXv-yiDPDy9d2zfSw9m-2" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="180" y="540" as="sourcePoint" />
+            <mxPoint x="340" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yCXv-yiDPDy9d2zfSw9m-10" edge="1" parent="1" source="yCXv-yiDPDy9d2zfSw9m-3" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" target="yCXv-yiDPDy9d2zfSw9m-2" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="180" y="540" as="sourcePoint" />
+            <mxPoint x="340" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yCXv-yiDPDy9d2zfSw9m-14" edge="1" parent="1" source="yCXv-yiDPDy9d2zfSw9m-2" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" target="yCXv-yiDPDy9d2zfSw9m-4" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="360" y="340" as="sourcePoint" />
+            <mxPoint x="520" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yCXv-yiDPDy9d2zfSw9m-15" connectable="0" parent="yCXv-yiDPDy9d2zfSw9m-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="chứa (chấp nhận T extends MediaItem)" vertex="1">
+          <mxGeometry relative="1" x="0.0444" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
