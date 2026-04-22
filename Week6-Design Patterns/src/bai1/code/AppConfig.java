@@ -6,6 +6,7 @@ class AppConfig {
     private String version;
     private String logLevel;
 
+
     private AppConfig() {
     }
 
