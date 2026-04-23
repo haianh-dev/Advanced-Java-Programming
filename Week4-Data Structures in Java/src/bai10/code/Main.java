@@ -13,6 +13,7 @@ abstract class MediaItem {
         this.name = name;
     }
 
+
     public abstract void printDetails();
 }
 
